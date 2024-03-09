@@ -33,7 +33,7 @@ mongoose
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.use("/location", locationRouter);
+app.use("/v1", locationRouter);
 
 //
 
